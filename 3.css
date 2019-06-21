@@ -1,0 +1,45 @@
+
+  .peiger{
+    display:inline-flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+  } 
+  .peiger{
+    margin:10px;
+    border:1px solid #ccc;
+    padding: 5px;
+    background: #fff;
+
+    width:100%;
+    display: flex;
+    }
+    
+    .element{
+      padding: 5px 5px;
+      border: 1px solid #ddd;
+      background: #fffde1;
+      margin:10px;
+    }
+    .element1{
+      padding: 5px 5px;
+      border: none;
+      background: #fffde1;
+      margin:10px;
+    }
+ div { 
+   color: blueviolet;
+   border-radius: 4px;
+   }
+   .menumo{
+     float: left;
+     }
+     .element:hover{
+      color: rgb(104, 101, 101);
+      background-color: rgb(179, 162, 162);
+     }
+
+     .element1:hover{
+      color: rgb(104, 101, 101);
+      background-color: rgb(179, 162, 162);
+     }
